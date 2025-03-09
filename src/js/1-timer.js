@@ -1,3 +1,8 @@
+// Описаний в документації
+import flatpickr from "flatpickr";
+// Додатковий імпорт стилів
+import "flatpickr/dist/flatpickr.min.css";
+
 document.addEventListener('DOMContentLoaded', () => {
     const datetimePicker = document.getElementById('datetime-picker');
     const startButton = document.querySelector('[data-start]');
