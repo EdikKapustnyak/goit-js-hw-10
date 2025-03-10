@@ -2,6 +2,11 @@ import flatpickr from "flatpickr";
 
 import "flatpickr/dist/flatpickr.min.css";
 
+// Описаний у документації
+import iziToast from "izitoast";
+// Додатковий імпорт стилів
+import "izitoast/dist/css/iziToast.min.css";
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const datetimePicker = document.querySelector('#datetime-picker');
